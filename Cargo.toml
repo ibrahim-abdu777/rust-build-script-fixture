@@ -1,0 +1,9 @@
+[package]
+name = "rust-build-script-fixture"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+description = "Small release-channel parsing fixture with a deterministic build check"
+build = "build.rs"
+
+[dependencies]
